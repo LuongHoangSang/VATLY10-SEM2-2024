@@ -1,0 +1,65 @@
+\let\lesson\undefined
+\newcommand{\lesson}{\phantomlesson{Bài 16: Công suất}}
+\chapter[Công suất]{Công suất}
+\setcounter{section}{0}
+\section{Lý thuyết}
+\subsection{Khái niệm công suất}
+Công suất là đại lượng đặc trưng cho tốc độ sinh công của lực, được tính bằng công sinh ra trong một đơn vị thời gian.
+\begin{equation*}
+	\calP=\dfrac{A}{t}.
+\end{equation*}
+
+Nếu vật sinh công không đều, thì công suất tính theo công thức trên gọi là công suất trung bình. 
+\subsection{Đơn vị của công suất}
+
+Trong hệ SI, công suất có đơn vị oát (watt), kí hiệu W.
+\begin{equation*}
+	1\ \text{W}=\dfrac{1\ \text{J}}{1\ \text{s}}.
+\end{equation*}
+
+1 watt là công suất của một thiết bị thực hiện công bằng 1 joule  trong thời gian 1 giây.
+
+Một đơn vị khác thường được sử dụng của công suất là mã lực (CV, HP).
+\begin{eqnarray*}
+	1\ \text{CV}\ (\text{Pháp}) &=& 736\ \text{W}\\
+	1\ \text{HP}\ (\text{Anh}) &=& 746\ \text{W}		
+\end{eqnarray*}
+
+\subsection{Mối liên hệ giữa công suất với lực và vận tốc}
+Trường hợp vật chuyển động thẳng đều với vận tốc $v$ theo phương của lực, biểu thức liên hệ giữa công suất với lực và vận tốc là
+$$\calP = \dfrac{A}{t} = \dfrac{Fs}{t}= Fv.$$
+
+\section{Mục tiêu bài học - Ví dụ minh họa}
+\begin{dang}{Tính công suất trung bình trong trường hợp tổng quát}
+	\viduii{2}{Một hành khách kéo đều một vali đi trong nhà ga trên sân bay trên quãng đường dài $\SI{150}{m}$ với lực kéo có độ lớn $\SI{40}{N}$ theo hướng hợp với phương ngang một góc $60^\circ$. Hãy xác định công suất của lực kéo của người này trong khoảng thời gian 5 phút.
+	}
+	{\hide{Công suất của lực kéo của người:
+			$$\calP = \dfrac{A}{t} = \dfrac{Fs\cos \alpha}{t}=\dfrac{\SI{40}{\newton}\cdot\SI{150}{\meter
+				}\cdot \cos \SI{60}{\degree}}{5\cdot\SI{60}{\second}}= \SI{10}{\watt}.$$
+	}}
+
+	\viduii{2}{Một động cơ điện cung cấp công suất 15 kW cho một cần cẩu nâng 1000 kg lên cao 30 m. Lấy $g=10\ \text{m/s}^2$. Tính thời gian tối thiểu để thực hiện công việc đó.
+	}
+	{
+		\hide{Để nâng được vật lên, cần cẩu phải tác dụng lực $F$ hướng lên trên, có độ lớn tối thiểu bằng trọng lực ($F\geq P=mg$). Lực và phương chuyển động của vật đều hướng lên nên góc giữa lực và phương chuyển động là \SI{0}{\degree}.
+			
+			Công mà cần cẩu đã thực hiện để nâng vật lên cao 30 m:
+			\begin{equation*}
+				A=Fs \cos \alpha \geq mg s\cos \alpha =\SI{1000}{\kilogram}\cdot\SI{10}{\meter/\second^2}\cdot\SI{30}{\meter}\cdot\cos\SI{0}{\degree}= \SI{300000}{\joule}=\SI{300}{\kilo\joule}.
+			\end{equation*}
+			Thời gian tối thiểu để thực hiện công việc đó:
+			\begin{equation*}
+				\calP=\dfrac{A_{\min}}{t} \Rightarrow t =\dfrac{A_{\min}}{\calP}=\dfrac{\SI{300}{\kilo\joule}}{\SI{15}{\kilo\watt}}= 20\ \text{s}.
+		\end{equation*}}
+	}
+\end{dang}
+
+\begin{dang}{Nêu được mối liên hệ giữa công suất với lực và vận tốc}
+
+	\viduii{2}{
+		Một ô tô chuyển động thẳng đều trên đường nằm ngang với vận tốc $\SI{72}{km/h}$, công suất của động cơ là $\SI{75}{kW}$. Tính lực phát động của động cơ.
+	}
+	{\hide{Công suất của vật chuyển động thẳng đều:
+			$$\calP = Fv \Rightarrow F = \dfrac{\calP}{v} =\dfrac{\SI{75}{\kilo\watt}}{\SI{20}{\meter/\second}}= \SI{3750}{\newton}.$$}
+	}
+\end{dang}

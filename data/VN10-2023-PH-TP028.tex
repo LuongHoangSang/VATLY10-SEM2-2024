@@ -1,0 +1,113 @@
+\let\lesson\undefined
+\newcommand{\lesson}{\phantomlesson{Bài 16: Công suất. Hiệu suất.}}
+\chapter[Hiệu suất]{Hiệu suất}
+\setcounter{section}{0}
+\section{Lý thuyết}
+\subsection{Năng lượng có ích, năng lượng toàn phần}
+\begin{minipage}{0.6\textwidth}
+	Trong xe ô tô, năng lượng cung cấp cho xe (năng lượng toàn phần) chính là năng lượng hóa học được tạo ra từ việc đốt nhiên liệu. Một phần năng lượng toàn phần được chuyển thành cơ năng (năng lượng có ích) làm xe chuyển động, phần còn lại là năng lượng thất thoát dưới nhiều dạng khác nhau gọi là năng lượng hao phí.
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+	\begin{center}
+		\includegraphics[scale=0.8]{../figs/G10-022-1}
+	\end{center}
+\end{minipage}
+
+\subsection{Khái niệm hiệu suất}
+Gọi công suất toàn phần của động cơ là $\calP$, công suất có ích là $\calP'$.
+
+Hiệu suất của động cơ $H$ là tỉ số giữa công suất có ích và công suất toàn phần của động cơ, đặc trưng cho hiệu quả làm việc của động cơ.
+$$H=\dfrac{\calP'}{\calP} \cdot 100\%$$
+hoặc hiệu suất cũng có thể tính theo tỉ lệ giữa năng lượng có ích ($W_\text i$) và năng lượng toàn phần ($W_\text{tp}$):
+$$H=\dfrac{W_\text{i}}{W_\text{tp}} \cdot 100\%$$
+
+Ví dụ, hiệu suất của động cơ nhiệt được viết dưới dạng:
+$$H=\dfrac{A}{Q} \cdot 100\%$$
+Trong đó, $A$ là công cơ học mà động cơ thực hiện được, $Q$ là nhiệt lượng mà động cơ nhận được từ nhiên liệu bị đốt cháy.
+\luuy{Hiệu suất của động cơ luôn nhỏ hơn 1, vì không có một máy móc nào hoạt động mà không có sự mất mát năng lượng do ma sát, nhiệt và các dạng năng lượng hao phí khác.}
+\manatip{
+	Để xác định đúng năng lượng có ích và năng lượng hao phí, cần phải hiểu rõ chức năng của thiết bị. Năng lượng phục vụ chức năng của thiết bị là năng lượng có ích. 
+	
+	Ví dụ như: 
+	\begin{itemize}
+		\item Ô tô được chế tạo để phục vụ việc di chuyển. Do đó lượng năng lượng chuyển thành động năng là năng lượng có ích, còn những dạng năng lượng khác (làm các bộ phận nóng lên, bị bào mòn,... là năng lượng hao phí).
+		\item Quạt máy được chế tạo để xoay tạo ra gió, nên phần năng lượng được chuyển thành động năng quay của quạt là năng lượng có ích, còn năng lượng làm quạt nóng lên là năng lượng hao phí. 
+		\item Bếp điện được chế tạo để đun nóng vật khác, nên lượng năng lượng được chuyển thành nhiệt năng của mặt bếp là năng lượng có ích, còn năng lượng làm nóng các bộ phận khác của bếp là năng lượng hao phí. 
+	\end{itemize}
+}
+\section{Mục tiêu bài học - Ví dụ minh họa}
+\begin{dang}{Nêu được khái niệm năng lượng có ích và năng lượng hao phí.\\ Suy ra công thức và khái niệm hiệu suất}
+	
+	\viduii{2}{
+		Một động cơ ô tô có hiệu suất $25\%$, thông số này có nghĩa là gì?
+	}
+	{		\hide{Nói động cơ ô tô có hiệu suất $25\%$ có nghĩa là $25\%$ năng lượng hóa học trong xăng (dầu) được chuyển hóa thành động năng của ô tô, gọi là năng lượng có ích $A_\text{i}$. Phần $75\%$ năng lượng còn lại gọi là năng lượng hao phí $A_\text{hp}$.}
+			}
+	\viduii{2}{
+		Tìm phương án giảm năng lượng hao phí khi sử dụng các thiết bị điện trong gia đình hoặc động cơ ô tô, xe máy.
+		
+	}
+	{\hide{Các phương án có thể kể đến là:
+			\begin{itemize}
+				\item Thường xuyên vệ sinh thiết bị, tra dầu nhớt để giảm hao phí do tỏa nhiệt, ma sát;
+				\item Thường xuyên bảo dưỡng thiết bị và thay thế khi thiết bị đã quá cũ;
+				\item Sử dụng thiết bị đúng chức năng và hướng dẫn sử dụng của nhà sản xuất;
+				\item Tắt bớt một số chức năng nhất định của thiết bị khi không cần sử dụng.
+		\end{itemize}}
+	}
+\end{dang}
+
+\begin{dang}{Vận dụng công thức tính hiệu suất trong một số trường hợp thực tiễn}
+	\viduii{2}{Trong mỗi giây, một tấm pin mặt trời có thể hấp thụ $\SI{750}{J}$ năng lượng ánh sáng, nhưng nó chỉ có thể chuyển hóa thành $\SI{120}{J}$ năng lượng điện. Hiệu suất của tấm pin này là bao nhiêu?
+	}
+	{\hide{Hiệu suất của tấm pin là:
+			$$H=\dfrac{A'}{A} \cdot 100\% = \dfrac{120}{750} \cdot 100\% \approx 16\%$$}
+	}
+	
+	
+	
+	\viduii{3}{Một thùng hàng có khối lượng $\SI{30}{kg}$ được đẩy lên một con dốc cao $\SI{2}{m}$ bằng một động cơ băng chuyền. Hiệu suất của động cơ là bao nhiêu? Biết rằng trong cả quá trình vận chuyển, động cơ cần sử dụng năng lượng tổng là $\SI{5000}{J}$. Lấy $g=\SI{9.8}{m/s^2}$.
+	}
+	{\hide{Công có ích khi thực hiện đẩy thùng hàng lên đến đỉnh dốc là
+			$$A'=m\cdot g \cdot h$$
+			Hiệu suất của động cơ băng chuyền trong quá trình vận chuyển này:
+			$$H=\dfrac{A'}{A} \cdot 100\%  = \dfrac{30 \cdot \SI{9.8}{} \cdot 2}{\SI{5000}{}} \cdot 100\% = \SI{11.76}{\percent}.$$}
+	}
+	
+	\viduii{3}{
+		Một xe bán tải có khối lượng $\SI{1.5}{}$ tấn, hiệu suất của xe là $18\%$. Tìm số lít xăng cần dùng để xe tăng tốc đều từ trạng thái nghỉ đến tốc độ $\SI{15}{m/s}$. Biết năng lượng chứa trong $\SI{3.8}{\ell}$ xăng là $\SI{1.3e8}{J}$.
+	}
+	{\hide{Áp dụng định lí động năng để xác định công có ích để xe tăng tốc đều từ trạng thái nghỉ đến tốc độ $\SI{15}{m/s}$:
+			$$W_\text{đ2} - W_\text{đ1} = A' \Rightarrow A' = \dfrac{1}{2} \cdot \SI{1500}{} \cdot \SI{15}{}^2 = \SI{168750}{J}$$
+			Áp dụng công thức tính hiệu suất để xác định năng lượng toàn phần do nhiên liệu bị đốt:
+			$$H=\dfrac{A'}{A} \cdot 100\% \Rightarrow A=\dfrac{A'}{H} \cdot 100\% = \SI{937500}{J}$$
+			Số lít xăng cần dùng:
+			$$V=\dfrac{\SI{3.8}{} \cdot \SI{937500}{}}{\SI{1.3e8}{}} = \SI{0.027}{\ell}$$}
+	}
+	\viduii{3}
+	{
+	Một em bé nặng $\SI{20}{\kilogram}$ chơi cầu trượt từ trạng thái nghỉ ở đỉnh cầu trượt dài $\SI{4}{\meter}$, nghiêng góc $\SI{40}{\degree}$ so với phương nằm ngang. Khi đến chân cầu trượt, tốc độ của em bé này là $\SI{3.2}{\meter/\second}$. Lấy gia tốc trọng trường là $\SI{10}{\meter/\second^2}$.
+	\begin{center}
+		\includegraphics[scale=0.5]{../figs/VN10-2023-PH-TP028-2}
+	\end{center}
+	\begin{enumerate}[label=\alph*)]
+		\item Tính độ lớn lực ma sát tác dụng vào em bé này.
+		\item Tính hiệu suất của quá trình chuyển hóa thế năng thành động năng của em bé.
+	\end{enumerate}
+	}
+	{
+	\hide{\begin{enumerate}[label=\alph*)]
+			\item Độ cao của đỉnh cầu trượt so với mặt đất
+			$$h=\ell\sin\alpha=4\cdot\sin\SI{40}{\degree}\approx\SI{2.57}{\meter}.$$
+			Do có ma sát nên khi trượt, một phần thế năng của em bé được chuyển hóa thành động năng, một phần thắng công cản $A$ của lực ma sát
+			$$mgh=\dfrac{1}{2}mv^2+A\Rightarrow A=mgh-\dfrac{1}{2}mv^2\approx\SI{411.6}{\joule}.$$
+			Độ lớn của lực ma sát: $$F_{\text{ms}}=\dfrac{A}{\ell}\approx\SI{102.9}{\newton}.$$
+			\item Năng lượng toàn phần bằng thế năng của em bé ở đỉnh cầu trượt
+			$$W_{\text{tp}}=mgh=\SI{514}{\joule}.$$
+			Năng lượng hao phí bằng độ lớn công của lực ma sát nên năng lượng có ích là
+			$$W_{\text{ci}}=W_{\text{tp}}-A=\SI{102.4}{\joule}.$$
+			Hiệu suất của quá trình biến đổi thế năng thành động năng:
+			$$H=\dfrac{W_{\text{ci}}}{W_{\text{tp}}}\cdot\SI{100}{\percent}\approx\SI{20}{\percent}.$$
+	\end{enumerate}}
+	}
+\end{dang}
